@@ -1,15 +1,12 @@
 package dev.sanda.users_and_posts.service;
 
-import com.sun.org.apache.xerces.internal.impl.dtd.DTDGrammar;
 import dev.sanda.apifi.test_utils.TestableGraphQLService;
 import dev.sanda.datafi.dto.FreeTextSearchPageRequest;
 import dev.sanda.datafi.dto.Page;
 import dev.sanda.datafi.dto.PageRequest;
 import dev.sanda.datafi.service.DataManager;
 import dev.sanda.users_and_posts.model.*;
-import io.leangen.graphql.annotations.GraphQLIgnore;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,13 +14,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.transaction.Transactional;
-
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 import static dev.sanda.users_and_posts.service.Helpers.*;
 import static org.junit.jupiter.api.Assertions.*;
+
 @Transactional
 @SpringBootTest
 @RunWith(SpringRunner.class)

@@ -6,7 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.3.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>dev.sanda</groupId>
     <artifactId>users_and_posts</artifactId>
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>dev.sanda</groupId>
             <artifactId>apifi</artifactId>
-            <version>0.0.4-dev55</version>
+            <version>0.0.5.2</version>
         </dependency>
 
         <dependency>
@@ -60,6 +60,12 @@
             <groupId>com.github.javafaker</groupId>
             <artifactId>javafaker</artifactId>
             <version>0.15</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

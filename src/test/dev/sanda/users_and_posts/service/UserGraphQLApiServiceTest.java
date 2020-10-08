@@ -22,7 +22,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import javax.transaction.Transactional;
 
 import java.util.*;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Collectors;
 
 import static dev.sanda.users_and_posts.service.Helpers.DEFAULT_NUM_USERS;
